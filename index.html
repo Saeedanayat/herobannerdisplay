@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>H A T E D — Forever | Horde Guild</title>
+<meta name="description" content="H A T E D is an elite Horde guild built on teamwork, raids and long-term progression.">
+<meta name="theme-color" content="#070809">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="hero.css">
+</head>
+<body>
+<a class="skip" href="#guild">Skip to content</a>
+
+<header class="site-header" id="header">
+  <a class="brand" href="#home" aria-label="H A T E D home">H A T E D</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  <nav class="nav" id="nav" aria-label="Primary">
+    <a href="#home">Home</a><a href="#guild">Guild</a><a href="#raid">Raid</a>
+    <a href="#roster">Roster</a><a href="#media">Media</a><a href="#about">About</a>
+    <a class="btn btn--sm nav__join" href="#join">Join the guild</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home" aria-roledescription="carousel" aria-label="Guild hero concepts">
+  <div class="hero__slides">
+
+    <article class="slide slide--1 is-active" data-name="Thunderfury" data-lightning="1" aria-label="Hero 1 of 3">
+      <video class="slide__video" muted loop playsinline preload="metadata" poster="hero1.jpg">
+        <source src="herotop3.mp4" type="video/mp4"></video>
+      <!-- <div class="slide__content">
+        <h1 class="title" aria-label="HATED"><span class="title__text">H A T E D</span>
+          <svg class="bolts" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true"></svg></h1>
+        <p class="forever">Forever</p>
+        <p class="quote">“The Horde marches.”</p>
+        <div class="cta"><a class="btn" href="#join">Enter the guild</a><a class="btn btn--ghost" href="#raid">View raid</a></div>
+      </div> -->
+    </article>
+
+    <article class="slide slide--2" data-name="Horde March" data-lightning="0" aria-label="Hero 2 of 3" aria-hidden="true">
+      <video class="slide__video" muted loop playsinline preload="none" poster="assets/hero/hero-02.jpg">
+        <source src="hero6.mp4" type="video/mp4"></video>
+      <!-- <div class="slide__content">
+        <div class="title" role="heading" aria-level="2" aria-label="HATED"><span class="title__text">H A T E D</span>
+          <svg class="bolts" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true"></svg></div>
+        <p class="forever">Forever</p>
+        <p class="quote">“One guild. One raid. One legacy.”</p>
+        <div class="cta"><a class="btn" href="#roster">Meet the guild</a></div>
+      </div> -->
+    </article>
+
+    <article class="slide slide--3" data-name="Dark Twilight" data-lightning="0.4" aria-label="Hero 3 of 3" aria-hidden="true">
+      <video class="slide__video" muted loop playsinline preload="none" poster="assets/hero/hero-03.jpg">
+        <source src="herotop1.mp4" type="video/mp4"></video>
+      <!-- <div class="slide__content">
+        <div class="title" role="heading" aria-level="2" aria-label="HATED"><span class="title__text">H A T E D</span>
+          <svg class="bolts" viewBox="0 0 1000 220" preserveAspectRatio="none" aria-hidden="true"></svg></div>
+        <p class="forever">Forever</p>
+        <p class="quote">“Forged in the Horde.”</p>
+        <div class="cta"><a class="btn" href="#about">Discover HATED</a></div>
+      </div> -->
+    </article>
+  </div>
+
+  <div class="switcher" role="group" aria-label="Switch hero concept">
+    <button class="switcher__arrow" id="prev" aria-label="Previous hero">←</button>
+    <div class="switcher__tabs" id="tabs" role="tablist"></div>
+    <span class="switcher__count" id="count" aria-live="polite">01 / 03</span>
+    <button class="switcher__arrow" id="next" aria-label="Next hero">→</button>
+  </div>
+</section>
+
+<section class="section intro" id="guild">
+  <div class="wrap narrow">
+    <h2 class="display">Forged together.</h2>
+    <p class="lead">H A T E D is a Horde guild built around teamwork, disciplined raiding and long-term progression. We show up prepared, we learn every fight, and we stay for the whole campaign. Skill opens the door; reliability keeps you in the line.</p>
+  </div>
+</section>
+
+<section class="section" id="raid">
+  <div class="wrap">
+    <div class="cards">
+      <article class="card"><h3>Raids</h3><p>Scheduled, prepared and run with clear calls. Every pull has a plan and every wipe has a lesson.</p></article>
+      <article class="card"><h3>Progression</h3><p>Steady clears, tracked week to week. We push bosses down in order and do not skip the work.</p></article>
+      <article class="card"><h3>Teamwork</h3><p>Tanks, healers and damage work as one unit. We share logs, cooldowns and credit.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="roster">
+  <div class="wrap">
+    <h2 class="display display--sm">The line</h2>
+    <div class="roster">
+      <div class="role"><h3>Tank</h3>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Orc Warrior</small></div></article>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Tauren Druid</small></div></article></div>
+      <div class="role"><h3>Healer</h3>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Tauren Shaman</small></div></article>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Undead Priest</small></div></article></div>
+      <div class="role"><h3>DPS</h3>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Orc Warlock</small></div></article>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Blood Elf Mage</small></div></article>
+        <article class="char"><span class="char__sigil"></span><div><strong>Name</strong><small>Troll Rogue</small></div></article></div>
+    </div>
+  </div>
+</section>
+
+<section class="section statement" id="about">
+  <p class="display display--xl">We march<br>together.</p>
+</section>
+
+<section class="section" id="media">
+  <div class="wrap">
+    <h2 class="display display--sm">Media</h2>
+    <div class="gallery">
+      <a class="shot shot--wide" href="#media" aria-label="Video thumbnail placeholder"><span class="play" aria-hidden="true"></span></a>
+      <a class="shot" href="#media" aria-label="Screenshot placeholder"></a>
+      <a class="shot" href="#media" aria-label="Screenshot placeholder"></a>
+      <a class="shot" href="#media" aria-label="Screenshot placeholder"></a>
+      <a class="shot shot--wide" href="#media" aria-label="Screenshot placeholder"></a>
+    </div>
+  </div>
+</section>
+
+<section class="section join" id="join">
+  <div class="wrap narrow center">
+    <p class="title title--static"><span class="title__text">H A T E D</span></p>
+    <p class="forever">Forever</p>
+    <p class="lead">Ready to march with us?</p>
+    <a class="btn btn--lg" href="#join">Join the guild</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><p>H A T E D — Forever. Fan-made Horde guild. World of Warcraft is a trademark of Blizzard Entertainment.</p></footer>
+
+<script src="main.js"></script>
+<script src="hero-switcher.js"></script>
+</body>
+</html>
